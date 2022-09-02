@@ -1,12 +1,12 @@
 
 
-let b = Number(prompt("ingrese la base del rectangulo"));
-let h = Number(prompt("ingrese la altura del rectangulo"));
+let b = Number(prompt("ingrese la base del triangulo"));
+let h = Number(prompt("ingrese la altura del triangulo"));
 
-function formulaAreaRectangulo(base,altura){
+function formulaAreaTriangulo(base,altura){
     return base * altura;
 }
 
-console.log(`el area del rectangulo es: ${formulaAreaRectangulo(b, h)}`);
+console.log(`el area del rectangulo es: ${formulaAreaTriangulo(b, h /2)}`);
 
 

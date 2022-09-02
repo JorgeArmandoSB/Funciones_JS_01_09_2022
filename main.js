@@ -1,13 +1,13 @@
 
 
-let perimetro = Number(prompt("ingrese el perimetro"));
-let apotema = Number(prompt("ingrese el apotema"));
+let lado = Number(prompt("ingrese el lado del cuadrado"));
 
 
-function formulaPoligonoRegular(perimetro,apotema){
-    return perimetro /2 * apotema;
+
+function formulaAreaCuadrado(l){
+    return Math.pow(l, 2);
 }
 
-console.log(`el area del Polígono regular es: ${formulaPoligonoRegular(perimetro,apotema)}`);
+console.log(`el area del cuadrado es: ${formulaAreaCuadrado(lado)}`);
 
 

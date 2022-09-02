@@ -1,12 +1,12 @@
 
 
-let b = Number(prompt("ingrese la base del triangulo"));
-let h = Number(prompt("ingrese la altura del triangulo"));
+let dMayor = Number(prompt("ingrese el diagonale mayor"));
+let dMenor = Number(prompt("ingrese el diagonal menor"));
 
-function formulaAreaTriangulo(base,altura){
-    return base * altura;
+function formulaAreaRombo(dmayor,dmenor){
+    return dmayor * dmenor;
 }
 
-console.log(`el area del rectangulo es: ${formulaAreaTriangulo(b, h /2)}`);
+console.log(`el area del rombo es: ${formulaAreaRombo(dMayor, dMenor /2)}`);
 
 

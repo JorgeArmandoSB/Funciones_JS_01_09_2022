@@ -1,13 +1,13 @@
 
 
-let lado = Number(prompt("ingrese el lado del cuadrado"));
+let arista = Number(prompt("ingres la arista del Cubo"));
 
 
 
-function formulaAreaCuadrado(l){
-    return Math.pow(l, 2);
+function formulaVolumenCubo(volumenCubo){
+    return Math.pow(volumenCubo, 3);
 }
 
-console.log(`el area del cuadrado es: ${formulaAreaCuadrado(lado)}`);
+console.log(`el volumen del cubo es: ${formulaVolumenCubo(arista)}`);
 
 

@@ -1,13 +1,13 @@
 
 
-let baseMayor = Number(prompt("ingrese el diagonale mayor"));
-let baseMenor = Number(prompt("ingrese el diagonal menor"));
-let altura = Number(prompt("ingrese la altura"));
+let perimetro = Number(prompt("ingrese el perimetro"));
+let apotema = Number(prompt("ingrese el apotema"));
 
-function formulaAreaTrapecio(baseMayor,baseMenor){
-    return baseMayor * baseMenor;
+
+function formulaPoligonoRegular(perimetro,apotema){
+    return perimetro /2 * apotema;
 }
 
-console.log(`el area del trapecio es: ${formulaAreaTrapecio(baseMayor, baseMenor /2 * altura)}`);
+console.log(`el area del Polígono regular es: ${formulaPoligonoRegular(perimetro,apotema)}`);
 
 

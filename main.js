@@ -1,13 +1,15 @@
 
 
-let arista = Number(prompt("ingres la arista del Cubo"));
+let largo = Number(prompt("ingrese el largo "));
+let ancho = Number(prompt("ingrese el ancho "));
+let altura = Number(prompt("ingrese la altura "));
 
 
 
-function formulaVolumenCubo(volumenCubo){
-    return Math.pow(volumenCubo, 3);
+function formulaVolumenOrtoedro(l,a,alt){
+    return l*a*alt ;
 }
 
-console.log(`el volumen del cubo es: ${formulaVolumenCubo(arista)}`);
+console.log(`el volumen del ortoedro es: ${formulaVolumenOrtoedro(largo,ancho,altura)}`);
 
 

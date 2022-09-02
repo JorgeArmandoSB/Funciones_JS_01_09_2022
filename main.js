@@ -1,12 +1,13 @@
 
 
-let dMayor = Number(prompt("ingrese el diagonale mayor"));
-let dMenor = Number(prompt("ingrese el diagonal menor"));
+let baseMayor = Number(prompt("ingrese el diagonale mayor"));
+let baseMenor = Number(prompt("ingrese el diagonal menor"));
+let altura = Number(prompt("ingrese la altura"));
 
-function formulaAreaRombo(dmayor,dmenor){
-    return dmayor * dmenor;
+function formulaAreaTrapecio(baseMayor,baseMenor){
+    return baseMayor * baseMenor;
 }
 
-console.log(`el area del rombo es: ${formulaAreaRombo(dMayor, dMenor /2)}`);
+console.log(`el area del trapecio es: ${formulaAreaTrapecio(baseMayor, baseMenor /2 * altura)}`);
 
 

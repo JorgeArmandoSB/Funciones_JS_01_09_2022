@@ -6,8 +6,8 @@ let A = Number(prompt(`ingresa la altura`));
 
 
 
-function fomulaAreaPrisma(ab,altura){
-    return  ab * altura
+function fomulaAreaPrisma(areaBase,altura){
+    return  areaBase * altura
 }
 
 console.log(`el Area de la esfera es: ${fomulaAreaPrisma(ab,A)}`);

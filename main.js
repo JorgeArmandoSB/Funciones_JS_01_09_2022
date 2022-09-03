@@ -1,15 +1,15 @@
 
 
-let largo = Number(prompt("ingrese el largo "));
-let ancho = Number(prompt("ingrese el ancho "));
-let altura = Number(prompt("ingrese la altura "));
+let pi  = 3.1416;
+let r = Number(prompt(`ingresa el radio`))
 
 
 
-function formulaVolumenOrtoedro(l,a,alt){
-    return l*a*alt ;
+
+function fomulaAreaCirculo(radio){
+    return Math.pow(radio,2);
 }
 
-console.log(`el volumen del ortoedro es: ${formulaVolumenOrtoedro(largo,ancho,altura)}`);
+console.log(`el Area del circulo es: ${fomulaAreaCirculo(r)}`);
 
 

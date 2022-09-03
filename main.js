@@ -1,15 +1,16 @@
 
 
 let pi  = 3.1416;
-let r = Number(prompt(`ingresa el radio`))
+let r = Number(prompt(`ingresa el radio`));
+let g = Number(prompt(`ingresa la generatris`));
 
 
 
 
-function fomulaAreaCirculo(radio,perimetro){
-    return Math.pow(radio,2)*perimetro;
+function fomulaAreaCono(radio,generatris,){
+    return radio * generatris 
 }
 
-console.log(`el Area del circulo es: ${fomulaAreaCirculo(r,pi)}`);
+console.log(`el Area del circulo es: ${fomulaAreaCono(r,g*pi)}`);
 
 

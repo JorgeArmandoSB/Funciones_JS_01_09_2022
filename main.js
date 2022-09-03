@@ -1,14 +1,15 @@
 
-let r = Number(prompt(`ingresa el radio`));
+let ab = Number(prompt(`ingresa el area de la base`));
+let A = Number(prompt(`ingresa la altura`));
 
 
 
 
 
-function fomulaAreaEsfera(radio){
-    return   4 * Math.PI * Math.pow(radio,2)
+function fomulaAreaPrisma(ab,altura){
+    return  ab * altura
 }
 
-console.log(`el Area de la esfera es: ${fomulaAreaEsfera(r)}`);
+console.log(`el Area de la esfera es: ${fomulaAreaPrisma(ab,A)}`);
 
 

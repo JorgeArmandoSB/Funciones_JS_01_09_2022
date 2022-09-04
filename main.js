@@ -6,10 +6,10 @@ let A = Number(prompt(`ingresa la altura`));
 
 
 
-function fomulaVolumenCilindro(areaBase,altura){
-    return  Math.pow(areaBase,2)* Math.PI * altura
+function fomulaVolumenCono(areaBase,altura){
+    return  areaBase * altura / 3
 }
 
-console.log(`el volumen del cilindro es : ${fomulaVolumenCilindro(ab, A)}`);
+console.log(`el volumen del cono es : ${fomulaVolumenCono(ab, A)}`);
 
 

@@ -1,15 +1,15 @@
 
-let ab = Number(prompt(`ingresa el area de la base`));
-let A = Number(prompt(`ingresa la altura`));
+let r = Number(prompt(`ingresa la medida del radio`));
 
 
 
 
 
-function fomulaVolumenCono(areaBase,altura){
-    return  areaBase * altura / 3
+
+function fomulaVolumenEsfera(medidaRadio,){
+    return  Math.pow(medidaRadio,3)* (4/3)* Math.PI
 }
 
-console.log(`el volumen del cono es : ${fomulaVolumenCono(ab, A)}`);
+console.log(`el volumen de la esfera es : ${fomulaVolumenEsfera(r)}`);
 
 

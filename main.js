@@ -6,10 +6,10 @@ let A = Number(prompt(`ingresa la altura`));
 
 
 
-function fomulaVolumenPrisma(areaBase,altura){
-    return  areaBase * altura
+function fomulaVolumenCilindro(areaBase,altura){
+    return  Math.pow(areaBase,2)* Math.PI * altura
 }
 
-console.log(`el volumen del primas es: ${fomulaVolumenPrisma(ab,A)}`);
+console.log(`el volumen del cilindro es : ${fomulaVolumenCilindro(ab, A)}`);
 
 
